@@ -16,8 +16,10 @@ class InputLeftRightButtonsViewModel {
     }
 
     get secondButtonCallback(): ButtonPropsCallback {
-        return (_, {inputValue}) => {
-            if(inputValue.trim().match("^[-0-9]?(.[0-9])*$") ) {
+        return (_, { inputValue }) => {
+            const value = inputValue.trim()
+
+            if (value.match(`^-{0,1}[0-9]{1,}?(.[0-9])*$`)) {
                 alert(inputValue)
             }
         }

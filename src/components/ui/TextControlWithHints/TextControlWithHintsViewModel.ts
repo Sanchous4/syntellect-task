@@ -21,7 +21,7 @@ class TextControlWithHintsViewModel extends CountryInfoService {
 
         const hints = await this.fetchHints(this.inputValue)
 
-        if (hints) {
+        if (hints && this.inputValue) {
             runInAction(() => {
                 this.hints = hints
             })
