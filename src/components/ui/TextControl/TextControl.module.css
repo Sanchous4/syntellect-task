@@ -1,0 +1,13 @@
+.control__wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.input {
+    background-color: var(--second-bg-color);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+    color: var(--text-color);
+}
