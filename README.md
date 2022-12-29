@@ -1,3 +1,21 @@
+# Установка
+
+```
+git clone https://github.com/Sanchous4/syntellect-task.git
+```
+
+```
+cd syntellect-task
+```
+
+```
+npm i
+```
+
+```
+npm run start 
+```
+
 # Тестовое задание
 
 Необходимо разработать два компонента-контрола.
